@@ -11,7 +11,7 @@ from telegram.ext import CallbackContext, CommandHandler, Filters, MessageHandle
 
 USERS_GROUP = 4
 CHAT_GROUP = 5
-DEV_AND_MORE = DEV_USERS.append(int(OWNER_ID))
+DEV_AND_MORE = DEV_USERS.append(str(OWNER_ID))
 
 
 def get_user_id(username):
